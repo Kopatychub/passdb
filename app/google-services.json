@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "810339549130",
+    "project_id": "passapp-30392",
+    "storage_bucket": "passapp-30392.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810339549130:android:c9a1741203f34706ded933",
+        "android_client_info": {
+          "package_name": "com.example.passdb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeZjNXURKUHOwPFiC6VUqewiX_DDIwYPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

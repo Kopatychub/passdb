@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".showInfo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/shName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monob"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/green"
+        android:textSize="36sp"
+        android:text="GitHub"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monob"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/green"
+        android:layout_marginStart="20dp"
+        android:textSize="19sp"
+        android:text="Логин"/>
+
+    <TextView
+        android:id="@+id/shLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:text="example@gmail.com"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monob"
+        android:textColor="@color/green"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="20dp"
+        android:textSize="19dp"
+        android:text="Пароль"/>
+
+    <TextView
+        android:id="@+id/shPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:text="password_1234"
+        />
+
+
+</LinearLayout>
